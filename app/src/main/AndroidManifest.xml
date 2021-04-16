@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AppSetting"></activity>
+        <activity android:name=".Home"></activity>
+        <activity android:name=".AppSetting" />
         <activity android:name=".Settings" />
         <activity android:name=".InfoTab" />
         <activity android:name=".DailyProgress" />

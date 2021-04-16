@@ -25,4 +25,11 @@
     <string name="notifications">Notifications</string>
     <string name="todo">TODO</string>
     <string name="todo1">TODO</string>
+    <string name="textview">TextView</string>
+    <string name="textview5">TextView</string>
+    <string name="enter_your_city">Enter your city</string>
+    <string name="this_will_help_us_get_a_better_reading_of_how_much_water_to_drink_sunny_days_can_dehydrate_you_fast">This will help us get a better reading of how much water to drink. Sunny days can dehydrate you fast!</string>
+    <string name="enter_your_state">Enter your state</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="next">Next</string>
 </resources>

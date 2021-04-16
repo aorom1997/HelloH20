@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("age", age);
             intent.putExtra("weight", weight);
             startActivity(intent);
-            finish();
+
         }
     }
 }

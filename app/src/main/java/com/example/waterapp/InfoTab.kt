@@ -10,11 +10,11 @@ class InfoTab : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_info_tab)
 
-        val buttonBack= findViewById<ImageButton>(R.id.imageButton2)
+        val buttonBack= findViewById<ImageButton>(R.id.BackBtn)
         buttonBack.setOnClickListener {
             val i = Intent( this , DailyProgress::class.java)
             startActivity(i);
-
         }
+
     }
 }

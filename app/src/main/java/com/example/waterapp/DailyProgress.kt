@@ -26,15 +26,20 @@ class DailyProgress : AppCompatActivity() {
         }
 
         val Name = NameView;
-        val Age = AgeView;
-        val Weight = WeightView;
-
         val name: String = intent.getStringExtra("name");
-        val age: String = intent.getStringExtra("age");
-        val weight: String = intent.getStringExtra("weight");
-
         Name.text = "Hello $name!";
-        Age.text = age;
-        Weight.text = weight;
+
+        val buttonNext= findViewById<ImageButton>(R.id.NextButton)
+        buttonNext.setOnClickListener {
+            //val city = cityInput.text.toString();
+            //val state = stateInput.text.toString();
+
+            val intent1 = Intent( this , Home::class.java)
+            //intent1.putExtra("city", city);
+            //intent1.putExtra("state", state);
+            startActivity(intent1);
+
+        }
+
     }
 }
