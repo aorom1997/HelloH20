@@ -26,9 +26,11 @@
         android:id="@+id/AmountView"
         android:layout_width="178dp"
         android:layout_height="135dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="116dp"
         android:text="TextView"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="257dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Hello" />
 </androidx.constraintlayout.widget.ConstraintLayout>

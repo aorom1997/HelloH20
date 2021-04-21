@@ -32,4 +32,10 @@
     <string name="enter_your_state">Enter your state</string>
     <string name="welcome_back">Welcome Back!</string>
     <string name="next">Next</string>
+    <string name="water_is_a_key_ingredient_in_maintaining_a_healthy_body_drinking_water_prevents_dehydration_which_can_cause_unclear_thinking_changes_in_mood_your_body_to_overheat_and_other_unwanted_issues">Water is a key ingredient in maintaining a healthy body. Drinking water prevents dehydration, which can cause unclear thinking, changes in mood, your body to overheat and other unwanted issues.</string>
+    <string name="lubricates_and_cushion_joints">Lubricates and cushion joints</string>
+    <string name="protect_your_spinal_cord_and_other_sensitive_tissues">Protect your spinal cord and other sensitive tissues</string>
+    <string name="gets_rid_of_waste_through_urination_perspiration_and_bowel_movements">Gets rid of waste through urination, perspiration and bowel movements</string>
+    <string name="water_helps_your_body">Water helps your body:</string>
+    <string name="helps_maintain_normal_temperature">Helps maintain normal temperature</string>
 </resources>

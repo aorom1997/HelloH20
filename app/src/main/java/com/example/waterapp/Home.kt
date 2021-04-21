@@ -10,12 +10,12 @@ class Home : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        val AgeView = AmountView;
-        val age: String = intent.getStringExtra("age");
-        AgeView.text = "Hello $age!";
+       // val AgeView = AmountView;
+       // val age: String = intent.getStringExtra("age");
+       // AgeView.text = "Hello $age!";
 
-        val WeightView = AmountView;
-        val weight: String = intent.getStringExtra("weight");
-        WeightView.text = "Hello $weight!";
+       // val WeightView = AmountView;
+       // val weight: String = intent.getStringExtra("weight");
+        //WeightView.text = "Hello $weight!";
     }
 }
