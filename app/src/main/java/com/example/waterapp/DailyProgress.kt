@@ -13,17 +13,7 @@ class DailyProgress : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_daily_progress)
-
-        val buttonInfo= findViewById<ImageButton>(R.id.InfoButton)
-        buttonInfo.setOnClickListener {
-            val i = Intent( this , InfoTab::class.java)
-            startActivity(i);
-        }
-        val buttonSettings= findViewById<ImageButton>(R.id.SettingButton)
-        buttonSettings.setOnClickListener {
-            val i = Intent( this , AppSetting::class.java)
-            startActivity(i);
-        }
+        
 
         val Name = NameView;
         val name: String = intent.getStringExtra("name");

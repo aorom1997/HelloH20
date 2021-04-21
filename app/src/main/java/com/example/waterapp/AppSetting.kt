@@ -6,20 +6,15 @@ import android.os.Bundle
 import android.widget.ImageButton
 
 class AppSetting : AppCompatActivity() {
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_app_setting)
 
         val buttonBack1= findViewById<ImageButton>(R.id.imageButton)
         buttonBack1.setOnClickListener {
-            val i = Intent( this , DailyProgress::class.java)
+            val i = Intent( this , Home::class.java)
             startActivity(i);
 
         }
-
-
-        
     }
 }

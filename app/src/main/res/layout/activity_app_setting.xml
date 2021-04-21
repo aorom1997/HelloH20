@@ -33,7 +33,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.208"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/Blue" />
+            app:layout_constraintTop_toBottomOf="@+id/spinner_Blue" />
 
         <CheckBox
             android:id="@+id/checkBox2"
@@ -58,7 +58,7 @@
             app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
 
         <Spinner
-            android:id="@+id/Blue"
+            android:id="@+id/spinner_Blue"
             android:layout_width="409dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"

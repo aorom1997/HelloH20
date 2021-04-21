@@ -12,7 +12,7 @@ class InfoTab : AppCompatActivity() {
 
         val buttonBack= findViewById<ImageButton>(R.id.BackBtn)
         buttonBack.setOnClickListener {
-            val i = Intent( this , DailyProgress::class.java)
+            val i = Intent( this , Home::class.java)
             startActivity(i);
         }
 
