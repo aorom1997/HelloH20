@@ -41,4 +41,17 @@
     <string name="https_www_cdc_gov_healthyweight_healthy_eating_water_and_healthier_drinks_html">https://www.cdc.gov/healthyweight/healthy_eating/water-and-healthier-drinks.html</string>
     <string name="daily_h20_intake">Daily H20 Intake</string>
     <string name="tap_the_pitcher_to_fill_your_progress">Tap the pitcher to fill your progress!</string>
+    <string name="worked_out">Worked Out?</string>
+    <string name="hint">hint</string>
+    <string name="time_in_minutes">Time in Minutes</string>
+    <string name="heavy_body_weight_lifting_calisthenics">Heavy (Body, Weight Lifting, Calisthenics)</string>
+    <string name="moderate_jogging_swimming_cycling">Moderate (Jogging, Swimming, Cycling)</string>
+    <string name="how_long_was_the_workout">How long was the workout?</string>
+    <string name="how_was_your_workout_let_s_see_what_changes_we_need_to_make_to_your_water_intake_check_all_that_may_apply">How was your workout? Let\'s see what changes we need to make to your water intake! (Check all that may apply)</string>
+    <string name="light_walking_yoga_pilates">Light ( Walking, Yoga, Pilates)</string>
+    <string name="time_in_minutesw">Time in minutes</string>
+    <string name="weather">Weather</string>
+    <string name="city_placeholder">City: Placeholder</string>
+    <string name="temp">##</string>
+    <string name="you_will_need_to_drink_x_more_cups_of_water_for_today">You will need to drink X more cups of water for today!</string>
 </resources>
