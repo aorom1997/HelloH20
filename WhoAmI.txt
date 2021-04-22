@@ -1,0 +1,7 @@
+# HelloH20
+Water Drinker App
+
+My Name is Anthony Rom
+I am a Computer Science Major and UTeach Minor
+I will be working on an app called HelloH20 for this semesters Project.
+This app will be a Water reminder and tracker to cater to the user.
