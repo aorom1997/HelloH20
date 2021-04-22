@@ -14,5 +14,7 @@ Detailed, step-by-step, build/installation/initialization/launch instructions
   The app should be quick and easily buildable within the android app studio. This application uses kotlin and was tested on a Pixel 2 with API 25 with Andorid 7.1.1
   
 Detailed instructions how to use the software (if you are convinced it is self-explanatory and does not need instructions feel free to select "3")
-  The app should be faily self explanitory. Each activity page will brief the user on what to input and what they are able to do.
+  The app should be faily self explanitory. Each activity page will brief the user on what to input and what they are able to do. At the Water intake page, there are 4 icons
+  The First icon (i) is an info page. The dumbell Icon is the workout page to input work out time and type. The Gear icon is the settings page where a bluetooth device can be
+  connected as well as other settings. The weather icon includes the the weather for your area that was inputed in a previous activity screen.
    
