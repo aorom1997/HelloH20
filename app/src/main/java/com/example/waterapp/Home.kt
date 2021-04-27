@@ -30,8 +30,8 @@ class Home : AppCompatActivity() {
             startActivity(i);
         }
 
-        val buttonweather= findViewById<Button>(R.id.weatherbtn)
-        buttonweather.setOnClickListener {
+        val buttonWeather= findViewById<Button>(R.id.weatherbtn)
+        buttonWeather.setOnClickListener {
             val i = Intent( this , Weather::class.java)
             startActivity(i);
         }

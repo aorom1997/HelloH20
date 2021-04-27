@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageButton
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -22,17 +23,20 @@ class MainActivity : AppCompatActivity() {
 
         val buttonDailyProgress= findViewById<ImageButton>(R.id.StartButton)
         buttonDailyProgress.setOnClickListener {
-            val name = nameInput.text.toString();
-            val age = ageInput.text.toString();
-            val weight = weightInput.text.toString();
+            if (nameInput.text.toString() == ("") || ageInput.text.toString() == ("") || weightInput.text.toString() == ("")){
+                Toast.makeText(this, "Please input correct data.", Toast.LENGTH_SHORT).show();
+            }
+            else {
+                val name = nameInput.text.toString();
+                val age = ageInput.text.toString();
+                val weight = weightInput.text.toString();
+                val intent = Intent(this, DailyProgress::class.java)
+                intent.putExtra("name", name);
+                intent.putExtra("age", age);
+                intent.putExtra("weight", weight);
 
-
-            val intent = Intent( this , DailyProgress::class.java)
-            intent.putExtra("name", name);
-            intent.putExtra("age", age);
-            intent.putExtra("weight", weight);
-            startActivity(intent);
-
+                startActivity(intent);
+            }
         }
     }
 }
