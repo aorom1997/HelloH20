@@ -5,12 +5,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_home.*
 
 class Home : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+
+        Toast.makeText(this, "Did you drink water today? Don't forget your bottle!", Toast.LENGTH_LONG).show();
 
         val buttonInfo= findViewById<ImageButton>(R.id.infoButton)
         buttonInfo.setOnClickListener {
